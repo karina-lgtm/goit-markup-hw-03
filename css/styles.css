@@ -113,13 +113,12 @@ color: #434455;
     background: #2e2f42;
 }
 
-.container-hero {
+.hero-container {
     display: block;
     padding-left: 15px;
     padding-right: 15px;
     padding: 188px 0;
     margin: 0 auto;
-
 }
 .hero-title {
 justify-content: center;
@@ -134,13 +133,12 @@ color: #fff;
 }
 
 .hero-btn {
-    padding: 16px 32px 0;
     border-radius: 4px;
     min-width: 169px;
     height: 56px;
     margin: 48px 635px 188px 636px;
-   
-
+    display: block;
+    border: none;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -155,12 +153,28 @@ color: #fff;
     background-color: #404bbf;
 }
 
-
+.features-container{
+    display: flex;
+    gap: 24px;
+}
+.visually-hidden {
+position:absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+padding: 0%;
+border:0;
+white-space: nowrap;
+clip-path: inset(100%);
+overflow: hidden;
+clip:rect(0 0 0 0)
+}
 .features-subtitle {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 color: #2e2f42;
 }
 
@@ -169,11 +183,21 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+padding-top: 120px;
+padding-bottom: 120px;
+flex-basis: calc((100% - 3 * 24px) / 4);
+width: calc((100% - 72px) / 4);
 color: #434455;
 }
 
 .taste {
     background: #f4f4fd;
+    padding: 120px 0;
+}
+.container-taste {
+    display: flex;
+    gap: 24px;
+    padding: 32px 0;
 }
 .taste-title {
     font-weight: 500;
@@ -181,6 +205,8 @@ color: #434455;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
+    margin-bottom: 72px; 
     color: #2e2f42;
     text-transform: capitalize;
 }
@@ -197,6 +223,13 @@ background: #fff
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+width: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 3 * 24px) / 4);
+border-radius: 0px 0px 4px 4px; 
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-top-right-radius: 4px; 
+border-bottom-left-radius:4px;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;

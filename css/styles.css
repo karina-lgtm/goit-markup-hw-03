@@ -200,8 +200,8 @@ color: #434455;
     background: #f4f4fd;
     padding: 120px 0;
 }
-.container-taste {
-
+.img {
+    display: block;
 }
 .taste-title-team {
     font-weight: 700;
@@ -262,6 +262,7 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+margin-bottom: 72px;
 text-transform: capitalize;
 color: #2e2f42;
 }
@@ -275,11 +276,16 @@ color: #2e2f42;
 }
 .made-item {
  width: calc((100% - 48px) / 3);
+ border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-top-right-radius: 4px; 
+border-bottom-left-radius:4px;
 }
 .made-subtitle {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+margin-bottom: 8px;
 flex-wrap: wrap;
 display: flex;
 letter-spacing: 0.02em;

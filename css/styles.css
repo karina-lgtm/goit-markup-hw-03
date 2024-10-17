@@ -163,7 +163,7 @@ padding: 120px 0;
    display: flex;
    gap: 24px;
 }
-.features-list, features-item {
+.features-item{
     flex-basis: calc((100% - 3 * 24px) / 4);
     margin-bottom: 8px;
 }
@@ -195,20 +195,20 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.taste {
+.taste-section {
     background: #f4f4fd;
     padding: 120px 0;
 }
 .container-taste {
     display: flex;
-    padding: 32px 0;
 }
-.taste-title {
+.taste-title-team {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
     margin-bottom: 0 auto;
     margin-bottom: 72px; 
     color: #2e2f42;
@@ -239,6 +239,9 @@ letter-spacing: 0.02em;
 line-height: 1.2;
 color: #2e2f42;
 }
+.team-taste-subtitle{
+    padding: 32px 0;
+}
 
 .taste-item-image {
 font-weight: 400;
@@ -257,20 +260,18 @@ width: 1128px;
 font-weight: 500;
 font-size: 36px;
 line-height: 1.11;
-margin-bottom: 8px;
 letter-spacing: 0.02em;
-margin-bottom: 72px;
-color: #2e2f42;
 text-align: center;
 text-transform: capitalize;
+color: #2e2f42;
 }
 .made-list {
-    background: #fff;
-  display: flex;
-  flex-wrap: wrap;
+ display: flex;
+ flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
   margin-top: 0;
+  background: #fff;
 }
 .made-item {
  width: calc((100% - 48px) / 3);
@@ -279,8 +280,9 @@ text-transform: capitalize;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
+flex-wrap: wrap;
+display: flex;
 letter-spacing: 0.02em;
-margin-bottom: 8px;
 color: #2e2f42;
 }
 .made-item-image {
@@ -290,7 +292,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-
+.made-portfolio-subtitle {
+  padding: 32px 16px;  
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 
 .page-footer {
     background-color: #2e2f42;

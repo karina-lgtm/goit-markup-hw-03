@@ -153,7 +153,9 @@ color: #fff;
 .hero-btn:hover,.hero-btn:focus {
     background-color: #404bbf;
 }
-
+.features{
+padding: 120px 0;
+}
 .features-container{
    width: 1158px;
 }
@@ -161,8 +163,9 @@ color: #fff;
    display: flex;
    gap: 24px;
 }
-.features-list, features-item{
+.features-list, features-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
+    margin-bottom: 8px;
 }
 .visually-hidden {
 position:absolute;
@@ -194,6 +197,7 @@ color: #434455;
 
 .taste {
     background: #f4f4fd;
+    padding: 120px 0;
 }
 .container-taste {
     display: flex;
@@ -225,6 +229,7 @@ border-bottom-left-radius:4px;
 .taste-item{
 background: #fff
 }
+
 
 .taste-subtitle {
 text-align: center;

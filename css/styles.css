@@ -217,15 +217,15 @@ color: #434455;
 }
 
 .taste-list{
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-top-right-radius: 4px; 
+border-bottom-left-radius:4px;
 display: flex;
 gap: 24px;
 }
 
 .taste-item{
-border-top-left-radius: 0px;
-border-top-right-radius: 0px;
-border-top-right-radius: 4px; 
-border-bottom-left-radius:4px;
 background: #fff
 }
 
@@ -253,8 +253,8 @@ color: #434455;
 }
 
 .made {
-    padding-top: 120px; 
-    padding-bottom: 120px;
+ padding-top: 120px; 
+ padding-bottom: 120px;
 }
 .made-container{
 width: 1128px;
